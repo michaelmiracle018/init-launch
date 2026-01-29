@@ -1,5 +1,5 @@
 {
-  "name": "constructa-starter-min",
+  "name": "init-launch",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -122,6 +122,6 @@
     "workbox-window": "^7.3.0"
   },
   "engines": {
-    "node": ">=22.12"
+    "node": "22.x"
   }
 }
