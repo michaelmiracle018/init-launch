@@ -6,7 +6,6 @@ import { ServicesSection } from '~/components/home/services-section';
 // import { ProcessSection } from '~/components/home/process-section';
 import { PortfolioSection } from '~/components/home/portfolio-section';
 import { WhyChooseSection } from '~/components/home/why-choose-section';
-import { TestimonialsSection } from '~/components/home/testimonials-section';
 import { BlogPreviewSection } from '~/components/home/blog-preview-section';
 import { FAQPreviewSection } from '~/components/home/fag-preview-section';
 import { CTASection } from '~/components/home/cta-section';

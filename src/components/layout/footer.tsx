@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router';
-import { Code2, Mail, Phone, MapPin, Linkedin, Twitter, Instagram, Github } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Twitter, Instagram, Github } from 'lucide-react';
 import { InitLaunchLogo } from '../init-launch-logo';
 
 const footerLinks = {

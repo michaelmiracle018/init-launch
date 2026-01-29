@@ -1,4 +1,4 @@
-import { ArrowRight, Users, Target, Award, Heart, Lightbulb, Handshake } from 'lucide-react';
+import { ArrowRight, Target, Award, Heart, Lightbulb, Handshake } from 'lucide-react';
 import { Button } from '~/components/ui/button';
 import { Card, CardContent } from '~/components/ui/card';
 import { Layout } from '~/components/layout/layout';
@@ -8,7 +8,7 @@ import {
   StaggerItem,
   FadeIn,
   ScaleIn,
-} from '~/components/animations/ScrollReveal';
+} from '~/components/animations/scroll-reveal';
 import { Link } from '@tanstack/react-router';
 
 const team = [

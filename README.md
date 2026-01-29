@@ -1,7 +1,6 @@
-
 <div align="center">
-  <h1>Constructa Starter Min</h1>
-  <p><strong>A modern Web App Starter Kit based on Tanstack Starter using React, shadcn/ui and Tailwind CSS 4</strong></p>
+  <h1>Init Launch</h1>
+  <p><strong>A modern Web App based on Tanstack Starter using React, shadcn/ui and Tailwind CSS 4</strong></p>
   
   [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -21,14 +20,15 @@
 ## 🚀 Quick Start
 
 ### Prerequisites
-- **Node.js** 18+ 
+
+- **Node.js** 22+
 - **pnpm** (recommended package manager)
 
 ### Download
 
 ```bash
 # Clone the starter template (replace with your repo)
-npx gitpick git@github.com:instructa/constructa-starter-min.git my-app
+npx gitpick git@github.com:michaelmiracle018/init-launch.git my-app
 cd my-app
 ```
 
@@ -38,23 +38,23 @@ cd my-app
 
 ```bash
 # Install dependencies
-pnpm install
+yarn install
 
 # Start development server
-pnpm dev
+yarn dev
 ```
 
 ### Available Scripts
 
 ```bash
 # Development
-pnpm dev          # Start development server
-pnpm build        # Build for production
-pnpm start        # Start production server
+yarn dev          # Start development server
+yarn build        # Build for production
+yarn start        # Start production server
 
 # Code Quality
-pnpm biome:check  # Check code formatting and linting
-pnpm biome:fix:unsafe # Fix code issues (unsafe)
+yarn biome:check  # Check code formatting and linting
+yarn biome:fix:unsafe # Fix code issues (unsafe)
 ```
 
 ## 📁 Project Structure
@@ -74,18 +74,19 @@ src/
 
 ## 🎯 Core Technologies
 
-| Technology | Purpose | Documentation |
-|------------|---------|---------------|
-| **TanStack Start RC1** | Full-stack framework | [Docs](https://tanstack.com/start) |
-| **shadcn/ui** | Component library | [Docs](https://ui.shadcn.com/) |
-| **Tailwind CSS v4** | Styling framework | [Docs](https://tailwindcss.com/) |
-| **TypeScript** | Type safety | [Docs](https://typescriptlang.org/) |
-| **Browser Echo** | Client-side logging | [Docs](https://github.com/browser-echo/browser-echo) |
-| **Unplugin Icons** | Icon optimization | [Docs](https://github.com/antfu/unplugin-icons) |
+| Technology             | Purpose              | Documentation                                        |
+| ---------------------- | -------------------- | ---------------------------------------------------- |
+| **TanStack Start RC1** | Full-stack framework | [Docs](https://tanstack.com/start)                   |
+| **shadcn/ui**          | Component library    | [Docs](https://ui.shadcn.com/)                       |
+| **Tailwind CSS v4**    | Styling framework    | [Docs](https://tailwindcss.com/)                     |
+| **TypeScript**         | Type safety          | [Docs](https://typescriptlang.org/)                  |
+| **Browser Echo**       | Client-side logging  | [Docs](https://github.com/browser-echo/browser-echo) |
+| **Unplugin Icons**     | Icon optimization    | [Docs](https://github.com/antfu/unplugin-icons)      |
 
 ## 🔧 Configuration
 
 ### Adding shadcn/ui Components
+
 ```bash
 # Add new components
 npx shadcn@latest add button
@@ -94,22 +95,26 @@ npx shadcn@latest add input
 ```
 
 ### Tailwind CSS
+
 - Uses Tailwind CSS v4 with modern CSS-first configuration
 - Configured in `app.config.ts`
 - Global styles in `src/app/styles/`
 
 ### TypeScript
+
 - **Path aliases**: `@` resolves to the root `./` directory
 - **Route files**: Must use `.tsx` extension
 
 ## 🚀 Deployment
 
 ### Build for Production
+
 ```bash
 pnpm build
 ```
 
 ### Start Production Server
+
 ```bash
 pnpm start
 ```
@@ -123,5 +128,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p>Built with ❤️ using modern React tools</p>
 </div>
-
-

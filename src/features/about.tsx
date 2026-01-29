@@ -1,14 +1,5 @@
 import { motion } from 'framer-motion';
-import {
-  ArrowRight,
-  Users,
-  Target,
-  Award,
-  Heart,
-  Lightbulb,
-  Handshake,
-  Terminal,
-} from 'lucide-react';
+import { ArrowRight, Target, Award, Heart, Lightbulb, Handshake, Terminal } from 'lucide-react';
 import { Button } from '~/components/ui/button';
 import { Card, CardContent } from '~/components/ui/card';
 import { Layout } from '~/components/layout/layout';

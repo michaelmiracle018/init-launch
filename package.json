@@ -11,7 +11,8 @@
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "rules:apply": "ruler apply --nested",
-    "prepare": "ruler apply --nested"
+    "prepare": "ruler apply --nested",
+    "preinstall": "node -e \"if(parseInt(process.versions.node) < 22) { console.error('Error: Node 22+ required'); process.exit(1); }\""
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
