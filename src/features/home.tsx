@@ -34,7 +34,7 @@ const team = [
   {
     name: 'Co-Founder & CTO',
     role: 'Frontend and Mobile Developer',
-    bio: 'Front-end developer with over three and half years of experience in building responsive web applications and more than two and half years in building react-native applications.',
+    bio: 'Front-end developer with over 5 years of experience in building responsive web applications and more than four years in building react-native applications.',
     image: miracle,
     github: '',
   },
@@ -121,7 +121,7 @@ export default function Home() {
                     </CodeLine>
                     <CodeLine lineNumber={2} delay={0.2}>
                       <span className="ml-4">
-                        <CodeVariable>founded</CodeVariable>: <CodeString>"2016"</CodeString>,
+                        <CodeVariable>founded</CodeVariable>: <CodeString>"2023"</CodeString>,
                       </span>
                     </CodeLine>
                     <CodeLine lineNumber={3} delay={0.3}>
@@ -269,7 +269,7 @@ export default function Home() {
       <ServicesSection />
       {/* <ProcessSection /> */}
       {/* <TechStackSection /> */}
-      <PortfolioSection />
+      {/* <PortfolioSection /> */}
       <WhyChooseSection />
 
       {/* Team Section */}

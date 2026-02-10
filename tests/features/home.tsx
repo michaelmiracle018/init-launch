@@ -258,7 +258,7 @@ export default function Home() {
                 <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">About Us</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    It started in 2016 when two brothers – James and David Thompson – decided to
+                    It started in 2023 when two brothers – James and David Thompson – decided to
                     combine their skills in development and design to help businesses thrive online.
                   </p>
                   <p>

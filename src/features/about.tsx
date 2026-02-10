@@ -84,7 +84,7 @@ const values = [
 
 const milestones = [
   {
-    year: '2016',
+    year: '2023',
     title: 'git init',
     description: 'Two brothers with a shared vision started GreenPixel in a small home office.',
   },
@@ -153,7 +153,7 @@ export default function About() {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    It started in <span className="text-primary font-mono">2016</span> when two
+                    It started in <span className="text-primary font-mono">2023</span> when two
                     brothers – James and David Thompson – decided to combine their skills in
                     development and design to help businesses thrive online.
                   </p>
@@ -178,7 +178,7 @@ export default function About() {
                   </CodeLine>
                   <CodeLine lineNumber={2} delay={0.2}>
                     <span className="ml-4">
-                      <CodeVariable>founded</CodeVariable>: <CodeString>"2016"</CodeString>,
+                      <CodeVariable>founded</CodeVariable>: <CodeString>"2023"</CodeString>,
                     </span>
                   </CodeLine>
                   <CodeLine lineNumber={3} delay={0.3}>
