@@ -10,8 +10,8 @@ const footerLinks = {
     { name: 'Contact', href: '/contact#get--in-touch' },
   ],
   services: [
-    { name: 'Web Design', href: '/services#design' },
     { name: 'Web Development', href: '/services#development' },
+    { name: 'Mobile App', href: '/services#mobile-app' },
     { name: 'E-commerce', href: '/services#ecommerce' },
     { name: 'Maintenance', href: '/services#maintenance' },
   ],
@@ -47,11 +47,11 @@ export function Footer() {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span className="text-sm">hello@greenpixel.studio</span>
+                <span className="text-sm">miraclemichael@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm">+233 (59) 900-7961 / +233 (53) 317-1743</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4" />
@@ -113,7 +113,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} GreenPixel Studios. All rights reserved.
+            © {new Date().getFullYear()} InitLaunch. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((social) => (

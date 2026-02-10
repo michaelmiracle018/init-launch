@@ -172,7 +172,7 @@ export default function Home() {
       </section>
 
       {/* Client Logos */}
-      <section className="border-y border-border bg-muted/30 py-8 ">
+      {/* <section className="border-y border-border bg-muted/30 py-8 ">
         <div className="container app-container">
           <ScrollReveal>
             <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
@@ -184,7 +184,7 @@ export default function Home() {
             </div>
           </ScrollReveal>
         </div>
-      </section>
+      </section> */}
 
       {/* Stats Section */}
       <section className="py-16 md:py-24">

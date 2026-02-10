@@ -35,7 +35,7 @@ export function BlogPreviewSection() {
         <StaggerContainer className="grid gap-8 md:grid-cols-3" staggerDelay={0.15}>
           {latestPosts.map((post) => (
             <StaggerItem key={post.id}>
-              <Link to="." className="group block">
+              <Link to="/blog/$postId" params={{ postId: post.id }} className="group block">
                 <motion.div whileHover={{ y: -5 }} transition={{ duration: 0.2 }}>
                   <Card className="h-full overflow-hidden border border-border/50 bg-card/50 backdrop-blur-sm shadow-sm hover:shadow-lg hover:border-primary/30 transition-all">
                     <div className="aspect-video overflow-hidden">

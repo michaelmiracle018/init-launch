@@ -11,9 +11,11 @@ import {
 } from '~/components/animations/scroll-reveal';
 import { useParams } from '@tanstack/react-router';
 import { Link } from '@tanstack/react-router';
+import { GlowingOrb, GridBackground } from '~/components/animations/floating-elements';
 
 export default function BlogPost() {
-  const { id } = useParams<{ id: string }>();
+  const { postId: id } = useParams({ from: '/blog/$postId' });
+
   const post = blogPosts.find((p) => p.id === id);
 
   if (!post) {
@@ -39,8 +41,10 @@ export default function BlogPost() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-subtle py-16 md:py-24">
-        <div className="container">
+      <section className="relative overflow-hidden py-16 md:py-24">
+        <GridBackground />
+        <GlowingOrb className="w-96 h-96 -top-48 -right-48" />
+        <div className="container app-container">
           <div className="mx-auto max-w-3xl">
             <FadeIn>
               <Link
@@ -80,15 +84,15 @@ export default function BlogPost() {
 
             <FadeIn delay={0.3}>
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   src={post.author.avatar}
                   alt={post.author.name}
                   className="h-12 w-12 rounded-full object-cover"
-                />
-                <div>
+                /> */}
+                {/* <div>
                   <div className="font-semibold text-foreground">{post.author.name}</div>
                   <div className="text-sm text-muted-foreground">{post.author.role}</div>
-                </div>
+                </div> */}
               </div>
             </FadeIn>
           </div>
@@ -110,7 +114,7 @@ export default function BlogPost() {
 
       {/* Content */}
       <section className="py-8 md:py-16">
-        <div className="container">
+        <div className="container app-container">
           <ScrollReveal>
             <div className="mx-auto max-w-3xl">
               <div className="prose prose-lg max-w-none">
@@ -175,7 +179,7 @@ export default function BlogPost() {
       {/* Related Posts */}
       {relatedPosts.length > 0 && (
         <section className="bg-muted/30 py-16 md:py-24">
-          <div className="container">
+          <div className="container app-container">
             <ScrollReveal>
               <h2 className="mb-8 text-2xl font-bold text-foreground">Related Articles</h2>
             </ScrollReveal>

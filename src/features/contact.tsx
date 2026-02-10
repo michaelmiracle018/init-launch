@@ -44,21 +44,21 @@ const contactInfo = [
     icon: Mail,
     title: 'Email Us',
     description: "We'll respond within 24 hours",
-    value: 'hello~greenpixel.studio',
+    value: ['miraclemichael022@gmail.com', 'contact@greenpixel.studio'],
     code: 'email.send()',
   },
   {
     icon: Phone,
     title: 'Call Us',
     description: 'Mon-Fri from 9am to 6pm',
-    value: '+1 (555) 123-4567',
+    value: ['(+233) 59 900 7961', '(+233) 53 317 1743'],
     code: 'phone.call()',
   },
   {
     icon: MapPin,
     title: 'Visit Us',
     description: 'Come say hello',
-    value: '123 Design Street, New York, NY 10001',
+    value: 'Accra, Ghana',
     code: 'location.find()',
   },
 ];
@@ -178,7 +178,15 @@ export default function Contact() {
                       </motion.div>
                       <h3 className="mb-1 text-lg font-semibold text-foreground">{item.title}</h3>
                       <p className="mb-2 text-sm text-muted-foreground">{item.description}</p>
-                      <p className="text-sm font-mono text-primary">{item.value}</p>
+                      {Array.isArray(item.value) ? (
+                        item.value.map((val, i) => (
+                          <p className="text-sm font-mono text-primary" key={i}>
+                            {val}
+                          </p>
+                        ))
+                      ) : (
+                        <p className="text-sm font-mono text-primary">{item.value}</p>
+                      )}
                     </CardContent>
                   </Card>
                 </motion.div>

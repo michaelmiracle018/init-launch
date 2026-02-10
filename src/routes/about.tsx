@@ -5,10 +5,10 @@ import { seo } from '~/utils/seo';
 export const Route = createFileRoute('/about')({
   head: () => ({
     meta: seo({
-      title: 'About – My App',
+      title: 'About – InitLaunch',
       description: 'This is the about page of my awesome app',
       keywords:
-        'react, tanstack, vite, ssr, design website, mobile apps, web development, backend services, cloud solutions',
+        'react, tanstack, vite, ssr, design website, mobile apps, web development, backend services, cloud solutions, software consulting, custom software development, technology solutions, software agency, software company, software development services',
       image: 'https://myapp.com/og/about.png',
     }),
   }),

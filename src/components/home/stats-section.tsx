@@ -3,9 +3,9 @@ import { useRef, useEffect, useState } from 'react';
 import { Rocket, Users, Star, CheckCircle } from 'lucide-react';
 
 const stats = [
-  { label: 'Projects Completed', value: 150, suffix: '+', icon: Rocket },
-  { label: 'Happy Clients', value: 120, suffix: '+', icon: Users },
-  { label: 'Years Experience', value: 8, suffix: '+', icon: Star },
+  { label: 'Projects Completed', value: 5, suffix: '+', icon: Rocket },
+  { label: 'Happy Clients', value: 5, suffix: '+', icon: Users },
+  { label: 'Years Experience', value: 2, suffix: '+', icon: Star },
   { label: 'Client Retention', value: 95, suffix: '%', icon: CheckCircle },
 ];
 

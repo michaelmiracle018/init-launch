@@ -9,6 +9,8 @@ import {
   BarChart,
   Check,
   Terminal,
+  Plug,
+  Smartphone,
 } from 'lucide-react';
 import { Button } from '~/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
@@ -114,6 +116,37 @@ const services = [
       'User behavior analysis',
       'Monthly performance reports',
       'A/B testing setup',
+    ],
+  },
+  {
+    id: 'mobile',
+    icon: Smartphone,
+    title: 'Mobile App Development',
+    code: 'mobile.build()',
+    description: 'Cross-platform mobile apps built with React Native and Expo for iOS and Android.',
+    features: [
+      'React Native & Expo development',
+      'Cross-platform iOS & Android apps',
+      'Native device feature integration',
+      'Push notifications & deep linking',
+      'App Store & Play Store deployment',
+      'Offline-first architecture',
+    ],
+  },
+  {
+    id: 'integration',
+    icon: Plug,
+    title: 'API & Integration',
+    code: 'api.connect()',
+    description:
+      'Seamless third-party integrations and custom API development to connect your systems.',
+    features: [
+      'REST & GraphQL API development',
+      'Third-party service integration',
+      'Payment gateway setup',
+      'CRM & ERP connectivity',
+      'Webhook & automation workflows',
+      'Data migration & syncing',
     ],
   },
 ];
