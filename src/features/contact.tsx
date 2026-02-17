@@ -44,7 +44,7 @@ const contactInfo = [
     icon: Mail,
     title: 'Email Us',
     description: "We'll respond within 24 hours",
-    value: ['miraclemichael022@gmail.com', 'contact@greenpixel.studio'],
+    value: ['miraclemichael022@gmail.com', 'michaelgodspower66@gmail.com'],
     code: 'email.send()',
   },
   {
